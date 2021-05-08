@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    Font-style: SemiBold;
+    font-style: normal;
+    font-weight: 600;
+     color: #5A5A5A;
+    
+}
+
+body{
+    background: #DAA474;
+    background-image: url(cake.png);
+    background-repeat: no-repeat;
+    background-position:50% 27%;
+}
+
+#header{
+   width: 100%;
+   height: 70px;    
+   min-height: 5%;
+   background-color: #E8B282;
+   position: fixed;
+    top:0;
+}
+
+footer{
+    width: 100%;
+    height: 30%;
+    min-height: 30%;
+    background-color: #E8B282;
+    margin-top: 8%;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+
+#header #menu{
+    position: absolute;
+    top: 26px;
+    bottom: 15px;
+    left: 35px;
+    color: #5A5A5A;
+    font-size: 1.188rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 18px;
+    Font-style: SemiBold;
+}
+   
+button{ 
+    width: 223px;
+    height: 35px;
+    border: 1px solid black;
+    background: rgba(218,164,116, 0)
+}
+
+button:hover{
+ background: #5A5A5A;
+ opacity: 60%;
+    color: #DAA474;
+
+}
+
+#header button{
+   float: right;
+   margin-top: 19px;
+   margin-right: 35px;
+   
+}
+
+h2{
+    margin-top: 10%;
+    margin-bottom: 2%;
+    Font-style: SemiBold;
+    Font-size: 36px;
+    text-align: center;
+    Vertical-align: Top;
+    Line-height: 150px;
+    Line-height: 100%;
+
+}
+h1{
+    Font-style: SemiBold;
+    Font-size: 150px;
+    Line-height: 150px;
+    Line-height: 100%;
+    text-align: center;
+    Vertical-align: Top;
+}
+
+
+#text{
+    
+    margin-top: 67%;
+    
+    height: 50%;
+    max-width: 61.3%;
+    min-width:  61.3%;
+    margin-left: 19.4%;
+    padding-top: 2%;
+}
+
+.description{
+    height: 90%;
+    width: 33%;
+   
+    float: left;
+    Font-size: 22px;
+    Line-height: 33px;
+    Line-height: 150%;
+    Vertical-align: Top;
+    word-spacing: 1.5px;
+    padding-left: 2%;  
+}
+
+.description h3{
+    Font-size: 64px;
+    Line-height: 64px;
+    Line-height: 100%;
+    Vertical-align: Top;
+    padding-left: -2%;
+}
+
+footer h3{
+    Font-size: 64px;
+    Line-height: 64px;
+    Line-height: 100%;
+    Vertical-align: Top;
+    padding-top: 2%;
+}
+
+footer h4{
+    Font-size: 22px;
+    Line-height: 33px;
+    Line-height: 150%;
+    Vertical-align: Top;
+    word-spacing: 1.5px;
+}
+
+#input1{
+    width: 50%;
+    height: 35px;
+    background: #DAA474;
+    border: none;
+    margin-top: 1%;
+}
+
+footer button{
+    margin-left: 1%;
+}
+#data{
+      margin-top: 4%;
+    float: left;
+    
+}
+#signature{
+    margin-top: 4%;
+    float: right;
+}
+
+.popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: 200ms ease-in-out;
+    width: 50%;
+    padding: 15%;
+    box-shadow: 0 10px 40px black;
+    background: #DAA474;
+    border: 1px solid black;
+    z-index: 10;
+    max-width: 80%;
+}
+
+.popup.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup h2{
+    Font-size: 46px;
+    text-align: center;
+    Vertical-align: Top;
+    margin-top: -10%;
+    margin-bottom: 10%;
+}
+
+.popup button{
+  margin-left: 17%;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(218, 164, 116, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
