@@ -6,8 +6,7 @@
     Font-style: SemiBold;
     font-style: normal;
     font-weight: 600;
-     color: #5A5A5A;
-    
+    color: #5A5A5A; 
 }
 
 body{
@@ -23,7 +22,7 @@ body{
    min-height: 5%;
    background-color: #E8B282;
    position: fixed;
-    top:0;
+   top:0;
 }
 
 footer{
@@ -59,7 +58,7 @@ button{
 button:hover{
  background: #5A5A5A;
  opacity: 60%;
-    color: #DAA474;
+ color: #DAA474;
 
 }
 
@@ -91,10 +90,8 @@ h1{
 }
 
 
-#text{
-    
+#text{ 
     margin-top: 67%;
-    
     height: 50%;
     max-width: 61.3%;
     min-width:  61.3%;
@@ -150,11 +147,13 @@ footer h4{
 footer button{
     margin-left: 1%;
 }
+
 #data{
       margin-top: 4%;
     float: left;
     
 }
+
 #signature{
     margin-top: 4%;
     float: right;
